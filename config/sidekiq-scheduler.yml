@@ -1,0 +1,4 @@
+fetch_crawlbase_data:
+  cron: "*/5 * * * *"  # Runs every 5 minutes
+  class: FetchCrawlbaseDataJob
+  queue: default
